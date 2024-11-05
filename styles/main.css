@@ -1,0 +1,95 @@
+main{
+    padding: 0;
+}
+.cover{
+    padding: 0;
+    position: relative;
+}
+.cover-image{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    filter: brightness(55%);
+}
+.cover-text {
+    position: absolute;
+    top: calc(50% - 4 * 4.5rem);
+    left: 10%;
+    font-size: 2.5rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8); /* Opcionalno za kontrast */
+    padding: 1rem;
+}
+
+.cover-text .title-text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px; /* Razmak između reči */
+}
+
+.cover-text .title-text span {
+    display: inline-block;
+}
+
+h2{
+    text-align: center;
+    font-size: 4rem;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+}
+
+.two-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Dve jednake kolone */
+    gap: 20px; /* Razmak između kolona */
+}
+
+.col {
+    padding: 20px; /* Razmak unutar kolona */
+    display: flex; /* Omogućava Flexbox unutar kolona */
+    justify-content: center; /* Centriranje sadržaja horizontalno */
+    align-items: center; /* Centriranje sadržaja vertikalno */
+}
+
+.col img {
+    max-width: 50%; /* Osigurava da slika ne izlazi iz kolone */
+    height: auto; /* Održava proporcije slike */
+    display: block; /* Blok element da bi se centriralo */
+}
+
+.about-us-text{
+    font-size: 2rem;
+    padding: 0.8rem;
+}
+.three-col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tri jednake kolone */
+    gap: 20px; /* Razmak između kolona */
+    margin-bottom: 2rem;
+}
+
+.three-col .col{
+    flex-direction: column;
+    background: RGBA(0,0,0,0.1);
+    border-radius: 4rem;
+}
+
+.three-col .col img {
+    margin: 2rem;
+    display: block;
+}
+.caption {
+    font-weight: bold; /* Opcionalno: podebljajte caption */
+    margin: 10px 0; /* Razmak između slike i captiona */
+    font-size: 3rem;
+    text-align: center;
+}
+
+.detail-text {
+    text-align: center; /* Centriranje detaljnog teksta */
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+
+

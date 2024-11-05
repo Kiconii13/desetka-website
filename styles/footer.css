@@ -1,0 +1,41 @@
+footer {
+    background: RGBA(0,0,0,0.1);
+    color: white; /* Boja teksta */
+    padding: 20px 0; /* Razmak unutar footera */
+    font-size: 2rem;
+}
+
+.footer-container {
+    max-width: 1200px; /* Maksimalna širina za footer */
+    margin: 0 auto; /* Centriranje footera */
+    padding: 0 20px; /* Unutrašnji razmak */
+}
+
+.footer-row {
+    display: flex; /* Koristi Flexbox za poravnanje sadržaja */
+    justify-content: space-between; /* Razmak između elemenata */
+    align-items: center; /* Vertikalno poravnanje */
+    margin-bottom: 10px; /* Razmak između redova */
+}
+
+.address {
+    color: white; /* Boja teksta za adresu */
+    text-decoration: none; /* Uklanja podvlačenje */
+}
+
+.address:hover {
+    text-decoration: underline; /* Podvlači adresu pri hover-u */
+}
+
+.social-icons a img {
+    width: 2rem; /* Širina ikona */
+    margin-left: 0.5rem; /* Razmak između ikona */
+}
+
+.copyright {
+    margin-right: auto; /* Razmak da se copyright pomeri levo */
+}
+
+.design {
+    text-align: right; /* Poravnava tekst u desnom delu */
+}

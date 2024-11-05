@@ -1,0 +1,69 @@
+/* Responzivnost za Naše aktivnosti sekciju */
+@media (max-width: 768px) {
+
+    h2{
+        font-size: 3rem;
+    }
+
+    .two-col {
+        display: flex; /* Koristi flexbox za raspored */
+        flex-direction: column; /* Rasporedi kolone u vertikalnom redu */
+    }
+
+    .two-col .col {
+        padding: 10px; /* Smanjen razmak unutar kolona */
+        text-align: center; /* Centriranje teksta unutar kolona */
+    }
+
+    .about-us-image {
+        max-width: 100%; /* Slika će biti u punoj širini kolone */
+        height: auto; /* Održava proporcije slike */
+        margin-bottom: 1rem; /* Razmak ispod slike */
+    }
+
+    .about-us-text {
+        font-size: 1.5rem; /* Smanjena veličina fonta za tekst */
+        padding: 0.5rem; /* Smanjen padding */
+    }
+
+    .three-col {
+        grid-template-columns: 1fr; /* Sve kolone zauzimaju punu širinu */
+    }
+
+    .three-col .col {
+        padding: 10px; /* Smanjen razmak unutar kolona */
+        justify-content: flex-start; /* Poravnanje sadržaja na početak */
+        align-items: flex-start; /* Poravnanje sadržaja na vrh */
+        text-align: center; /* Centriranje teksta unutar kolona */
+    }
+
+    .caption {
+        font-size: 2rem; /* Smanjena veličina fonta za caption */
+        margin: 10px auto; /* Razmak između caption-a i detalja */
+    }
+
+    .detail-text {
+        font-size: 1.5rem; /* Smanjena veličina fonta za detaljan tekst */
+    }
+
+    .col img {
+        max-width: 80%; /* Smanjena maksimalna širina slike */
+        height: auto; /* Održava proporcije slike */
+        margin: 0 auto; /* Centriranje slike unutar kolone */
+        display: block; /* Blok element da bi se centriralo */
+    }
+
+    .footer-container{
+        font-size: 1rem;
+    }
+
+    .social-icons a img {
+        width: 1.5rem;
+        height: auto;
+    }
+
+    .sponsor-logo{
+        max-width: 66%;
+        border-radius: 2rem;
+    }
+}

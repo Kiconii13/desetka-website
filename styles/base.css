@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+}
+/* Colors */
+:root{
+    --darkGrey:#545454;
+    --white:#fff;
+    --scarfBlue:#03063f;
+    --headfootBlue: #1949f5;
+    --lightGrey:#f8f9fa;
+    --textBlue:#0911ad;
+}
+
+.textBlue{
+    color: var(--textBlue);
+}
+
+body{
+    background: rgb(16,18,24);
+    background: linear-gradient(180deg, rgba(16,18,24,1) 0%, rgba(19,21,30,1) 74%);
+}
+
+.teko{
+    font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+    color: white;
+}
+a:after{
+    text-decoration: none;
+    color: white;
+}
