@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://desetioktobar.rs/sitemap.xml
